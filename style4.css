@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.first-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12vh;
+}
+.first-container .menu{
+    display: flex;
+    color: white;
+    font-size: 1.1em;
+    height: 130px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+} 
+
+
+.first-container .menu img {
+    display: block;
+    width: 150px;
+}
+
+.first-container .menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.first-container .menu nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-container .menu nav ul li{
+    padding: 10px;
+}
+
+.first-container .menu .social-medias ul {
+    list-style: none;
+    display: flex;
+}
+
+.first-container .menu .social-medias ul li {
+    padding: 5px;
+    font-size: 1.8em;
+    margin: 0px 5px;
+}
+
+.first-container .menu .social-medias ul li a {
+    color: white;
+}
+
+
+.first-container .menu nav.nav-bar ul li {
+    margin: 5px;
+}
+
+.first-container .menu nav.nav-bar ul li.contatos {
+    background: #830000;
+    border-radius: 20px;
+}
+
+.first-container .menu nav.nav-bar ul li:hover {
+    background-color: #830000;
+    border-radius: 20px;
+}
+
+.first-container .menu .social-medias ul li i {
+    background-color: #830000;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30px;
+}
+
+.first-container .menu .social-medias ul li i:hover {
+    background-color: #c41c1c;
+    cursor: pointer;
+}
+
+/*Segundo Container*/
+div.second-container {
+    border-radius: 20px;
+}
+
+div.second-container .img-second-c {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background: url("second-pizzaria-background.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.second-container .img-second-c h1 {
+    background-color: #830000;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.second-container div.about-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+div.second-container div.about-container div.about-box div.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.second-container div.about-container div.about-box div.circle i {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: #830000;
+    border-radius: 100px;
+    margin: auto;
+    font-size: 80px;
+    color: white;
+    align-items: center;
+}
+
+div.second-container div.about-container div.about-box {
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+div.second-container div.about-container div.about-box p {
+    color: rgb(46, 46, 46);
+    text-align: center;
+    font-size: 1.1em;
+}
+
+div.second-container div.about-container div.about-box h1 {
+    margin: 10px;
+}
+
+div.second-container div.about-container div.about-box div.circle i:hover {
+    background-color: #c41c1c;
+}
+
+
+div.second-container div.about-container div.about-box a {
+    text-decoration: none;
+    color: #830000;
+}
+
+div.seventh-container-2 {
+    display: flex;
+    height: fit-content;
+    background-color: rgb(29, 25, 25);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    align-items: center;
+}
+
+
+div.seventh-container-2 .first-sub-c fieldset {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+div.seventh-container-2 div.first-sub-c fieldset legend h1 {
+    background-color: #830000;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div.seventh-container-2 .first-sub-c fieldset p {
+    padding: 25px;
+    font-size: 1.3em;
+}
+
+div.seventh-container-2 .first-sub-c fieldset p i {
+    font-size: 1.7em;
+    color: #c41c1c;
+}
+
+div.seventh-container-2  div.second-sub-c iframe {
+    width: 500px; 
+    margin: 10px auto;
+    height: 400px;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+div.footer footer div ul.website-map a{
+    color: white;
+} 
+
+footer ul {
+    list-style: none
+}
+footer img {
+    width: 160px;
+    margin: 10px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    margin: 20px;
+}
+
+
+footer div ul.social-media{
+    display: flex;
+}
+
+footer div ul.social-media li {
+    font-size: 30px;
+}
+
+footer div ul.social-media li a {
+    color: white;
+}
+
+footer div ul li {
+    margin: 5px;
+}
+
+footer div p {
+    margin: 4px 0px;
+}
+
+footer div p.phone-number {
+    font-size: 1.4em;
+}
+
+footer div span {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: red;
+}
+
+div.footer section {
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.459);
+    padding: 20px;
+}
+
+div.footer section a {
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
+
+@media only screen and (max-width:1100px) {
+    /*primeiro container*/
+    .first-container .menu {
+        display: block;
+        height: 80px;
+    }
+
+    .first-container .menu img {
+        margin: auto;
+    }
+
+    .first-container .menu nav.nav-bar {
+        background-color: rgb(41 40 40 / 77%);
+        height: 0;
+        transition: 0.5s;
+        position: absolute;
+        width: 100%;
+        backdrop-filter: blur(10px);
+    }
+
+    .first-container .menu nav.nav-bar ul {
+        display: block;
+        width: fit-content;
+        list-style: none;
+        transition: 0.5s;
+        margin: 80px auto 0 auto;
+        opacity: 0;
+        text-align: center;
+    }
+
+    .first-container .menu nav.nav-bar ul li {
+        margin-bottom: 10px;
+    }
+
+    .first-container .menu nav.nav-bar ul li:hover {
+        background: #830000;
+        border-radius: 20px;
+    }
+
+    .first-container .menu p , .social-medias {
+        display: none;
+    }
+
+    .first-container .menu .hamburguer {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .first-container .menu .hamburguer .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 6px 0;
+    }
+
+    /*Segundo Container*/
+
+    div.seventh-container-2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    div.seventh-container-2 div.first-sub-c,div.second-sub-c {
+        width: 100%;
+    }
+    div.seventh-container-2 div.second-sub-c iframe {
+        width: 100%;
+    }
+    
+    /*configurações javascript */
+
+    .first-container .menu .nav-bar.active {
+        height: 450px;
+    }
+
+    .first-container .menu .nav-bar.active ul{
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://kit.fontawesome.com/87c6117410.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--PRIMEIRO CONTAINER-->
+    <div class="first-container">
+        <!-- MENU -->
+        <div class="menu">
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="hamburguer">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar" name="nav-bar" id="nav-bar">
+                <ul>
+                    <li class="inicio"><a href="index.html">INICIO</a></li>
+                    <li class="cardapio"><a href="menu-screen.html">CARDÁPIO</a></li>
+                    <li class="sobre"><a href="about-screen.html">SOBRE</a></li>
+                    <li class="contatos"><a href="contact.html">CONTATOS</a></li>
+                </ul>
+            </nav>
+            <p><i class="fa-solid fa-phone"></i> Central Delivery: <br>(12) 99675-3909</p>
+            <div class="social-medias">
+                <ul>
+                    <li><a href="https://www.instagram.com/oartesaosfx/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/oartesaosfx/?locale=pt_BR" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=5512997161112&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Segundo Container-->
+    <div class="img-second-c">
+        <h1>Sobre Nós</h1>
+    </div>
+    <div class="second-container">
+        <div class="first-sub-second-c">
+            <div class="box-container">
+                <img src="about-page-imgs/second-container-background.jpeg">
+            </div>
+        </div>
+        <div class="second-sub-second-c">
+            <div class="paragraphs">
+                <h1>QUEM SOMOS NÓS?</h1>
+                <p>Nestes últimos dez anos, a Pizzaria Pizzaria tem sido uma verdadeira joia na comunidade, servindo deliciosas fatias de felicidade a todos os amantes de pizza. Fundada em 2013, nossa pizzaria se tornou um marco gastronômico em nossa cidade, combinando tradição e inovação para criar uma experiência de sabor única.</p>
+                <br><p>Desde o início, nossa missão foi simples: criar as melhores pizzas, usando ingredientes frescos e receitas autênticas. Ao longo dos anos, mantivemos esse compromisso, garantindo que cada mordida seja uma explosão de sabores que fazem jus à rica tradição italiana. Nossa equipe dedicada de chefs talentosos trabalha incansavelmente para criar combinações de ingredientes que agradam aos paladares mais exigentes, desde as clássicas Margheritas até as ousadas criações gourmet.</p>  
+                <br><p>Desde o início, nossa missão foi simples: criar as melhores pizzas, usando ingredientes frescos e receitas autênticas. Ao longo dos anos, mantivemos esse compromisso, garantindo que cada mordida seja uma explosão de sabores que fazem jus à rica tradição italiana. Nossa equipe dedicada de chefs talentosos trabalha incansavelmente para criar combinações de ingredientes que agradam aos paladares mais exigentes.
+                </p>  
+            </div>
+        </div>
+    </div>
+
+    <!--Terceiro Container-->
+    <div class="third-container">
+       <div class="third-box"></div>
+       <div class="third-box"></div>
+       <div class="third-box"></div>
+       <div class="third-box"></div>
+    </div>
+
+    <!--Fim Container-->
+    <!--Footer-->
+    <div class="footer">
+        <footer>
+            <div>
+                <img src="logo.png">
+                <ul class="social-media">
+                    <li><a href="https://www.instagram.com/oartesaosfx/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/oartesaosfx/?locale=pt_BR" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=5512997161112&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <span>HORÁRIO DE ATENDIMENTO</span>
+                <p>Quinta a Segunda das 11h30 às 16h00 e das 18h30 às 23h00</p>
+                <p class="phone-number"><strong>Telefone:</strong>(12) 99675-3909</p>
+                <i>Av. Frei Oreste Girardi, 2093. Abernessia, Campos do Jordão - SP</i>
+            </div>
+            <div>
+                <span>MAPA</span>
+                <ul class="website-map">
+                    <a href="">
+                        <li>INICIO</li>
+                    </a>
+                    <a href="">
+                        <li>CARDÁPIO</li>
+                    </a>
+                    <a href="">
+                        <li>SOBRE</li>
+                    </a>
+                    <a href="">
+                        <li>CONTATOS</li>
+                    </a>
+                </ul>
+            </div>
+        </footer>
+        <section>@2024 Pizzaria | Desenvolvido por <a href="https://www.behance.net/hrusart" target="_blank ">EditHerus</a></section>
+    </div>
+</body>
+</html>
+
+<script>
+    hamburguer = document.querySelector(".hamburguer");
+    hamburguer.onclick = function() {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+    }
+</script>

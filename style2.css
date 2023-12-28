@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.first-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12vh;
+}
+.first-container .menu{
+    display: flex;
+    color: white;
+    font-size: 1.1em;
+    height: 130px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+} 
+
+
+.first-container .menu img {
+    display: block;
+    width: 150px;
+}
+
+.first-container .menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.first-container .menu nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-container .menu nav ul li{
+    padding: 10px;
+}
+
+.first-container .menu .social-medias ul {
+    list-style: none;
+    display: flex;
+}
+
+.first-container .menu .social-medias ul li {
+    padding: 5px;
+    font-size: 1.8em;
+    margin: 0px 5px;
+}
+
+.first-container .menu .social-medias ul li a {
+    color: white;
+}
+
+.first-container .menu nav.nav-bar ul li {
+    margin: 5px;
+}
+
+.first-container .menu nav.nav-bar ul li.cardapio {
+    background: #830000;
+    border-radius: 20px;
+}
+
+.first-container .menu nav.nav-bar ul li:hover {
+    background-color: #830000;
+    border-radius: 20px;
+}
+
+.first-container .menu .social-medias ul li i {
+    background-color: #830000;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30px;
+}
+
+.first-container .menu .social-medias ul li i:hover {
+    background-color: #c41c1c;
+    cursor: pointer;
+}
+
+/*Segundo Container*/
+div.second-container {
+    border-radius: 20px;
+}
+
+div.second-container .img-second-c {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background: url("pizzaria-background.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+div.second-container .img-second-c h1 {
+    background-color: #830000;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.second-container fieldset.first-fs legend h1 {
+    margin: 10px auto;
+    color: white;
+    padding: 3px;
+    font-size: 1.5em;
+    background-color: #830000;
+    width: 300px;
+    height: 32px;
+    border-radius: 20px 0px;
+    text-align: center;
+}
+
+div.second-container fieldset.first-fs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 8px solid #ffffff;
+    border-radius: 15px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+
+div.second-container fieldset div.main-block {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 5px 30px 56.1276px rgba(55, 55, 55, 0.236);
+}
+
+div.second-container fieldset div.main-block div.first-sub-block {
+    overflow: hidden;
+    width: 200px;
+    margin: auto;
+}
+
+div.second-container fieldset div.main-block div.first-sub-block img {
+    width: 100%;
+}
+
+div.second-container fieldset div.main-block div.first-sub-block img:hover {
+    transform: rotate(360deg);
+}
+
+div.second-container fieldset div.main-block div.second-sub-block{
+    text-align: center;
+    padding: 10px;
+}
+
+div.second-container fieldset div h1 {
+    color: #262121;
+    font-size: 19px;
+    margin: 5px;
+}
+
+div.second-container fieldset div button {
+    padding: 10px;
+    background-color: #830000;
+    border: none;
+    width: 80%;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+div.second-container fieldset div button a {
+    color: white;
+}
+
+div.second-container fieldset div button:hover {
+    background-color: #c41c1c;
+}
+
+div.second-container fieldset.second-fs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 8px solid #ffffff;
+    border-radius: 15px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+div.second-container fieldset.second-fs legend h1 {
+    margin: 10px auto;
+    color: white;
+    padding: 3px;
+    font-size: 1.5em;
+    background-color: #c41c1c;
+    width: 300px;
+    height: 32px;
+    border-radius: 20px 0px;
+    text-align: center;
+}
+
+/*Terceiro Container*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin-top: 10px;
+}
+
+div.footer footer div ul.website-map a{
+    color: white;
+} 
+
+footer ul {
+    list-style: none
+}
+footer img {
+    width: 160px;
+    margin: 10px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    margin: 20px;
+}
+
+
+footer div ul.social-media{
+    display: flex;
+}
+
+footer div ul.social-media li {
+    font-size: 30px;
+}
+
+footer div ul.social-media li a {
+    color: white;
+}
+
+footer div ul li {
+    margin: 5px;
+}
+
+footer div p {
+    margin: 4px 0px;
+}
+
+footer div p.phone-number {
+    font-size: 1.4em;
+}
+
+footer div span {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: red;
+}
+
+div.footer section {
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.459);
+    padding: 20px;
+}
+
+div.footer section a {
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
+
+@media only screen and (max-width:1100px) {
+    /*primeiro container*/
+    .first-container .menu {
+        display: block;
+        height: 80px;
+    }
+
+    .first-container .menu img {
+        margin: auto;
+    }
+
+    .first-container .menu nav.nav-bar {
+        background-color: rgb(41 40 40 / 77%);
+        height: 0;
+        transition: 0.5s;
+        position: absolute;
+        width: 100%;
+        backdrop-filter: blur(10px);
+    }
+
+    .first-container .menu nav.nav-bar ul {
+        display: block;
+        width: fit-content;
+        list-style: none;
+        transition: 0.5s;
+        margin: 80px auto 0 auto;
+        opacity: 0;
+        text-align: center;
+    }
+
+    .first-container .menu nav.nav-bar ul li {
+        margin-bottom: 10px;
+    }
+
+    .first-container .menu nav.nav-bar ul li:hover {
+        background: #830000;
+        border-radius: 20px;
+    }
+
+    .first-container .menu p , .social-medias {
+        display: none;
+    }
+
+    .first-container .menu .hamburguer {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .first-container .menu .hamburguer .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 6px 0;
+    }
+
+    /*Segundo Container */
+    div.second-container fieldset.first-fs{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.second-container fieldset.second-fs {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+
+    /*configurações javascript */
+
+    .first-container .menu .nav-bar.active {
+        height: 450px;
+    }
+
+    .first-container .menu .nav-bar.active ul{
+        opacity: 100%;
+    }
+
+    div.footer footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
